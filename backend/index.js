@@ -23,7 +23,7 @@ app.use(cookieParser());
 
 const corsOptions = {
     origin: [
-        "http://localhost:5173",           // local frontend
+        "https://job-portal-backe.onrender.com/",           // local frontend
         "https://your-frontend.onrender.com" // deployed frontend
     ],
     credentials: true
